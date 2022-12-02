@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation-menu container">
+            <ul class="menu">
+                <li class="menu-item"><a href="#" class="link-nav"><img src="./image/logo.svg" alt="logo" class="logo"></a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button button-menu">Поиск</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="container">
+            <div class="discrub">
+                <h1 class="title">Турист-Pro</h1>
+                <h3 class="discrib-title">Главная цель компании – сделать любой поход удобным, комфортным и безопасным.</h3>
+                <div class="block">
+                    <p class="discrub-text">Клиенты компании нашей имеют возможность заказать
+                        организацию туристического похода по одному из предоставленных маршрутов.
+                        Компания берет на себя обязанность по полному расчету похода, с учетом всех
+                        пожеланий клиентов. Компания предоставляет широкий спектр дополнительных
+                        услуг, таких как: услуги проводников, предоставление аренды туристического
+                        оборудования, информационная поддержка и т.д.</p>
+                        <img src="./image/menege.jpg" alt="discrub-image" class="discrub-image">
+                </div>
+
+            </div>
+
+            <div class="reviews">
+                <h2 class="title">Отзывы</h2>
+                <div class="reviews-item">
+                    <p class="reviews-item-name">Сергей</p>
+                    <figure class="stars">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star.png" alt="star" class="star">
+                    </figure>
+                    <p class="reviews-item-text">Когда другие агентства помашут вам платочком, "Турист-Pro" пойдет навстречу и решит ваши проблемы. 
+                        Индивидуальный подход, профессионализм и заинтересованность в каждом туристе.</p>
+                </div>
+
+                <div class="reviews-item">
+                    <p class="reviews-item-name">Игрим</p>
+                    <figure class="stars">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                    </figure>
+                    <p class="reviews-item-text">Моя лучшая поездка</p>
+                </div>
+
+                <div class="reviews-item">
+                    <p class="reviews-item-name">Кейлет</p>
+                    <figure class="stars">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star.png" alt="star" class="star">
+                    </figure>
+                    <p class="reviews-item-text">Хорошая экскурсия и гид!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container reservation">
+            <h2 class='title'>Как бронировать?</h2>
+            <figure class='figure'>
+                    <span class="text">Найти путевку</span><i class="right"></i>
+                    <span class="text">Оплатить</span><i class="right"></i>
+                    <span class="text">Получить документы</span><i class="right"></i>
+                    <span class="text">Насладиться отдыхом</span>
+            </figure>
+        </div> 
+
+        <div class="container">
+            <h2 class='title'>Поиск</h2>
+            <div class="form-find">
+                <ul class="list-find">
+                    <li class="list-find-item">
+                        <span>Регион:</span>
+                        <select class="find select">
+                            <option value="1">Один</option>
+                            <option value="2">Два</option>
+                            <option value="3">Три</option>
+                            <option value="4">Четыре</option>
+                            <option value="5">Пять</option>
+                        </select>
+                    </li>
+                    <li class="list-find-item">
+                        <label>Введите дату: <input type="date" class="find data"></label>
+                    </li>
+                    <li class="list-find-item">
+                        <label>Введите количество: <input type="text" value="0" class="find value"></label>
+                    </li>
+                    <li class="list-find-item">Уровень подготовки:
+                        <select class="select">
+                            <option value="1">Низкий</option>
+                            <option value="2">Средний</option>
+                            <option value="3">Профессиональный</option>
+                        </select>
+                    </li>
+                </ul>
+                <button class="button button-find">Поиск</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="title">Акции</h2>
+            <div class="discount slider ">
+                <div class="slider-item">
+                    <img src="./image/1.jpg" alt="slider-image"class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
+    
+                <div class="slider-item">
+                    <img src="./image/2.jpg" alt="slider-image" class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
+    
+                <div class="slider-item">
+                    <img src="./image/3.jpg" alt="slider-image" class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="subscribe container">
+            <label for="email">Введите почту</label>
+            <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+            <button class="button subscribe-btn">Подписаться</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="">
+            <span class="footer-text">Телефон “8 (800) 555-33-10”</span>
+            <span class="footer-text">Обратная связь: почта</span>
+            <img src="" alt="logo">
+        </div>
+
+        <nav class="navigation">
+            <ul class="list-nav">
+                <li class="list-nav-item">Акции</li>
+                <li class="list-nav-item">Бронирование</li>
+                <li class="list-nav-item">item</li>
+                <li class="list-nav-item">item</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
